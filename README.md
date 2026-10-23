@@ -2,7 +2,7 @@
 
 A Streamlit workspace for a sales manager: dashboard, routing with evidence, manual corrections, idempotent imports and an organised export with a manifest.
 
-**Approximate time spent: [FILL IN YOUR OWN HOURS]**  (be honest)
+**Approximate time spent: 4 hours** 
 
 ## Run locally
 ```
@@ -63,4 +63,4 @@ Export wipes and rebuilds the folder, so changing a route removes the old active
 Auto-route from stored outcome labels and title keywords and refresh analysis silently. Rejected because of findings 1 and 2. Trade-off: more records need a person (4 today) and new text stays "stale" until reviewed. Product choice: Review queue + analysis freshness.
 
 ## Known limitations / unfinished
-State is a local JSON file (on hosted free tiers it can reset when the app restarts; re-import takes seconds). Only the 18 supplied texts are analysed. Manual routes are not audit-logged beyond the last decision and note. No authentication. Data is de-identified exercise data: keep the repository private.
+State is a local JSON file (on hosted free tiers it can reset when the app restarts; re-import takes seconds). Only the 18 supplied texts are analysed. Manual routes are not audit-logged beyond the last decision and note. No authentication. Data is de-identified exercise data. No personal or confidential information is included.
